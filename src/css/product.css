@@ -1,0 +1,68 @@
+body{
+	background: url("../Images/ff11.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:400px;
+	margin-left:20px;
+	font-family:"Open Sans",sans-serif;
+	align-items:center;
+	justify-content:center;
+	display:center;
+	font-weight:bold;
+	
+}
+body > table{
+	width:80%;
+	
+}
+
+table{
+	border-collapse:collapse;
+	margin-top:100px;
+	
+}
+table.list{
+	width:100%;
+}
+td,th{
+	border:1px solid #dddddd;
+	text-align:left;
+	padding:8px;
+	color:#000  ;
+}
+
+input[type=text]{
+	width:100%;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	
+}
+input[type=submit]{
+	width:30%;
+	background-color:#ddd;
+	color:#000;
+	padding:14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type=submit]:hover{
+	background:gray;
+}
+form div.form-action-buttons{
+	text-align:right;
+}
+a{
+	cursor:pointer;
+	text-decoration:underline;
+	color:#000cc;
+	margin-right:4px;
+}
+a:hover{
+	background:#C61D13;
+}

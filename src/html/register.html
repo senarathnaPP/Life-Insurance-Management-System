@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+<script src="../js/myiwt.js"></script>
+</head>
+<body>
+
+
+
+<div class="overlay-form">
+  
+ <form action="../php/submitLogIn.php" method="POST" onsubmit="return checkPasswords()">  
+  <h1>Creat a new account </h1>
+  <p>Join to our company.Let's set up your account </p>
+ 
+  <div class="form-element"> 
+  
+     <label for="fullname">Full name </label>
+	 <input type="text" name="fullname1" placeholder="Enter your full name" required >
+      <br><br>
+  
+       
+       Phone number<br>
+      <input type="text" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Enter your Mobile number" required>
+	  <br><br>
+  
+ 
+     <label for="email">E-mail </label>
+	 <input type="email" name="mail"  pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="Enter your E-mail address" required>
+	 <br><br>
+ 
+   
+     <label for="address">Address </label>
+	 <textarea id="addr" name="addr" rows="6" cols="6" style="width:500px" placeholder="Enter your address" required></textarea>
+	 <br><br>
+  
+  
+     Choose your DOB <br>
+	 <input type="date" id="dob" name="dob" required>
+	 <br><br>
+ 
+     <label for="password-1">Password </label>
+	 <input type="password" id="password-1" name="password-1" placeholder="Enter a password" pattern="[a-zA-Z0-9._#$@]{5,10}" required>
+     <br><br>
+ 
+     <label for="password-2">Confirm Password</label>
+	 <input type="password" id="password-2" name="password-2" placeholder="Re-enter your password" required>
+     <br><br>
+ 
+    Accept policy and terms 
+	<input type="checkbox" id="policy" name="policy"  onclick="enableButton() " required style="width:15px">
+	<br><br>
+ 
+    
+	<input type="submit" id="btn1" name="btn1" style="width:150px" value="Sign Up" disabled>
+	
+    <input type="reset" id="btn2" name="btn2" style="width:150px">
+	
+	 <a href="../php/view.php">
+	 <input type="button" id="btn2" name="btn2" style="width:150px" value="View"></a>
+	
+	<br><br>
+	
+ </div> 
+    
+</form>
+
+   
+  
+  </div>
+   
+   
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background:light gray;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+ul.menu{
+	list-style-type:none;
+	margin:o;
+	padding:0;
+	background-color:#333;
+	overflow:hidden;
+}
+li.menu{
+	float:left;
+}
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:green;
+}
+
+*{
+   	padding:0;
+	margin:o;
+}
+
+body{
+	background: url("../images/log1.jpg");
+	background-size:cover;
+	align-items:center;
+	justify-content:center;
+	display:center;
+	font-family:sans-serif;
+	
+}
+
+.container{
+	position:relative;
+	margin-top:100px;
+	margin-left:500px;
+	width:450px;
+	height:auto;
+	background:#dedede;
+	
+	border-radius:5px;
+	
+	
+}
+.label1{
+	padding:20px 130px;
+	font-size:35;
+	font-weight:bold;
+	color:#130f40;
+	font-stretch:center;
+
+	
+}
+.login_form{
+	padding:20px 40px;
+	
+	
+}
+.login_form .font{
+	font-size:18px;
+	color:#130f40;
+	margin:5px 0px;
+}
+.login_form input{
+	height:40px;
+	width:350px;
+	padding: 0px 5px;
+	font-size:18px;
+	outline:none;
+	border:1px solid silver;
+}
+.login_form .font2{
+	margin-top:30px;
+}
+.login_form button{
+	margin:45px 0px 30px 0px;
+    height:45px;
+    width:365px;
+	font-size:20px;
+	color:white;
+	outline:none;
+	cursor:pointer;
+	font-weight:bold;
+	background:#1A237E;
+	border-radius:3px;
+	border:1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background:gray;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width:345px;
+	font-size:18px;
+	color:#C62828;
+	background:rgba(255,0,0,0.1);
+	text-align:center;
+	padding:5px 8px;
+	border-radius:3px;
+	border:1px solid #EF9A9A;
+	display:none;
+}
+br {
+ clear: left;
+}
+
+	

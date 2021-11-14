@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/join.css"/>
+<script src="../js/poljs.js"></script>
+</head>
+<body>
+
+ <div class="table1">
+ <table>
+   <tr>
+     <td>
+	   <form onsubmit="event.preventDefault();onformSubmit();"autocomplete="off">
+	     <div>
+	      <label>First Name</label>
+		  <input type="text" name="FirstName" id="FirstName" required>
+		 </div>
+		 
+		 <div>
+	      <label>Last Name</label>
+		  <input type="text" name="LastName" id="LastName" required>
+		 </div>
+		 
+		 <div>
+	      <label>Gender</label>
+		  <input type="text" name="gender" id="gender" placeholder="type male/female" required>
+		 </div>
+		 
+		 <div>
+	      <label>phone number</label>
+		  <input type="text" name="phone" id="phone"  pattern="[0-9]{10}" required>
+		 </div>
+		 
+		 <div>
+	      <label>E-mail</label>
+		  <input type="email" name="email" id="email"  pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" required>
+		 </div>
+		 
+		 <div>
+	      <label>address</label><br>
+		  <textarea name="address" rows="10" cols="40" id="address" required></textarea>
+		 </div>
+		 
+		 <div class="form-action-buttons">
+		 <input type="submit" value="submit">
+		  
+		 </div>
+	   </form>	 
+	 </td>
+	     <td>
+		    <table class="listJ" id="userlistJ">
+			   <thead>
+			      <tr>
+				    <th>First Name</th>
+					<th>Last Name</th>
+					 <th>&nbsp; Gender</th>
+					 <th>&nbsp; phone number</th>
+					 <th>&nbsp; E-mail</th>
+					<th>&nbsp; address</th>
+					<th>&nbsp; </th>
+				  </tr>
+				</thead>
+			  <tbody>
+			  </tbody>
+			</table>
+		</td>
+	 </tr> 
+     </table>
+  </div>
+ 
+</body>
+</html>

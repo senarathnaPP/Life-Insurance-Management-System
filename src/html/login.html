@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+<script src="js/myiwt.js" type="text/js"></script>
+</head>
+<body>
+
+<!--<center><img class="logo" src="images/logo.png"width="300px" height="200px" ></center>
+<h1><center><font color='white'> Safe  Guard Life Insurance</font color></center></h1>
+<h1><center><font color='white'> PLC</font color></center></h1>
+<!--<img class="logo" src="images/logo.png"width="350px" height="300px" >-->
+<hr>
+
+
+  <div class="container">
+	
+		    <h1 class="label1">User Login</h1>
+			 <form  action="../php/confrimLogin.php" class="login_form" method="post" name="form" onsubmit="return validated()">
+    		     <div class="font">
+				 E-mail 
+				 <input type="email" id="email" pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" autocomplete="off" name="email" required>
+				 </div>
+				 <div id="email_error">Please fill up your E-mail or phone number </div>
+				 <div class="font2">Password
+				 <input  id="btn" name="btn" type="password" name="password" pattern="[a-zA-Z0-9._#$@]{5,10}" placeholder="must contain 5-10 characters" required>
+				 </div>
+				 <div id="pass_error">Please fill up your password</div>
+				  <button type="submit">Login </button>
+				 
+             </form>
+</div>
+
+		 
+ </body>
+ </html>

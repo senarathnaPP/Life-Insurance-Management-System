@@ -1,0 +1,100 @@
+body{
+	background: url("../images/sign7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:1150px;
+	margin:0px;
+	font-family:"Open Sans",sans-serif;
+	align-items:center;
+	justify-content:center;
+	display:center;
+	
+	
+}
+.overlay-form{
+	position:absolute;
+	top:-9vh;
+	left:0px;
+	width:50vw;
+	height:180vh;
+	z-index:2;
+	opacity:1;
+	padding:80px 100px; 
+	overflow:hidden;
+	box-sizing:border-box;
+	margin-left:210px;
+	background-color:white;
+	
+}
+
+.overlay-form h1{
+	font-size:32px;
+	color:solid black;
+}
+.overlay-form p{
+	font-size:16px;
+	color:solid black;
+	margin:-15px 0px 30px;
+}
+.overlay-form .form-element{
+	margin:20px 0px;
+	color:black;
+	
+}
+.overlay-form label{
+	display:block;
+	font-size:17px;
+	color:black;
+	margin-bottom:5px;
+	
+}
+.overlay-form input{
+	width:100%;
+	padding:6px;
+	font-size:17px;
+	border:2px solid white;
+	background:transparent;
+	outline:none;
+	border-radius:10px;
+	color:black;
+	border-color:black;
+}
+.overlay-form button{
+	margin-top:10px;
+	width:100px;
+	height:35px;
+	font-size:15px;
+	text-transform:uppercase;
+	background:#fff;
+	border:none;
+	outline:none;
+	border-radius:10px;
+}
+
+.center{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+input[type=submit] {
+  background-color: #800000;
+  color: white;
+ }
+input[type=submit]:hover{
+	background:gray;
+}
+input[type=reset] {
+  background-color: black;
+  color: white;
+ }
+input[type=reset]:hover{
+	background:gray;
+}	
+input[type=button] {
+  background-color: #800000;
+  color: white;
+ }
+input[type=button]:hover{
+	background:gray;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/payOnline.css"/>
+</head>
+
+<body>
+
+<center>
+
+<form id="contact-form" method="post" action="../php/submitPayOnline.php">
+			
+			<input name="name" type="text" class="form-control" placeholder="Your Name" autocomplete="off" required><br><br><br><br>
+			
+			<input name="email" type="email" class="form-control" placeholder="E-mail" autocomplete="off" required><br><br><br><br>
+			
+			
+			<input name="cardNo" type="inherit" class="form-control"pattern="[0-9]{10}" autocomplete="off" placeholder="Card Number" required><br><br><br><br>
+			
+			
+			<input name="payAmount" type="float" class="form-control"  autocomplete="off" placeholder="###.##" required><br><br><br><br>
+			
+			
+			<textarea name="payRes" class="form-control" placeholder="Reason for the Pyament" rows="10" cols="51" autocomplete="off" required></textarea><br><br><br><br>
+		<br><br>
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
+
+		</center>
+</body>
+</html>
+

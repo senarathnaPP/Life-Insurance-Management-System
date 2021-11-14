@@ -1,0 +1,95 @@
+.c1{
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+	font-family:"Open Sans",sans-serif;
+	
+}
+.o1{
+	color:black;
+	-webkit-text-fill-color:white;
+	-webkit-text-stroke-width:3px;
+	
+}
+
+.holdingcontainer{
+	width:100%;
+	display:flex;
+	background:white;
+	padding:40px;
+	box-sizing:border-box;
+	
+}
+.internalcontainerL{
+	flex:1;
+	background:white;
+	padding:30px;
+}
+
+.internalcontainerR{
+	flex:1;
+	background:white;
+	padding:30px;
+}
+
+
+.overlay-form h1{
+	font-size:32px;
+	color:solid black;
+}
+.overlay-form p{
+	font-size:16px;
+	color:solid black;
+	margin:-15px 0px 30px;
+}
+.overlay-form .form-element{
+	margin:20px 0px;
+	color:black;
+	
+}
+.overlay-form label{
+	display:block;
+	font-size:17px;
+	color:black;
+	margin-bottom:5px;
+	
+}
+.overlay-form input{
+	width:100%;
+	padding:6px;
+	font-size:17px;
+	border:2px solid white;
+	background:transparent;
+	outline:none;
+	border-radius:10px;
+	color:black;
+	border-color:black;
+}
+.overlay-form button{
+	margin-top:10px;
+	width:100px;
+	height:35px;
+	font-size:15px;
+	text-transform:uppercase;
+	background:#fff;
+	border:none;
+	outline:none;
+	border-radius:10px;
+}
+
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+ }
+input[type=submit]:hover{
+	background:gray;
+}
+input[type=reset] {
+  background-color: lime;
+  color: white;
+ }
+input[type=reset]:hover{
+	background:gray;
+}	

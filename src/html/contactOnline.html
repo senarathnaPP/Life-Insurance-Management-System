@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/contactOnline.css"/>
+<script src="../js/contactOnline.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<hr>
+
+<ul class="menu">
+
+   <li class="menu"><a href="home1.html" class="active">HOME</a></li>
+   <li class="menu"><a href="Our Solutions.html">OUR SLUTIONS</a></li>
+   <li class="menu"><a href="careers.html">CAREERS</a></li>
+   <li class="menu"><a href="pro.html">PRODUCT</a></li>
+   <li class="menu"><a href="service.html">SERVICES</a></li>
+   <li class="menu"><a href="news.html">NEWS</a></li>
+   <li class="menu"><a href="contactOnline.html" class="active2">CONTACT ONLINE</a></li>
+   <li class="menu"><a href="aboutUs.html">ABOUT US</a></li>
+   <li class="menu"><a href="contactus.html">CONTACT US</a></li>
+ </ul>
+  <div class="header">
+  <img src="../images/logo.png" alt="logo" />
+  <h1 color="white">Safe Guard Life Insurance</h1>
+  <h1>PLC</h1>
+</div>
+<br><br>
+
+<body>
+
+	<!--Pay online-->
+	<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+	<div class="content1">
+	<div class="close-btn" onclick="togglepopup()">&times;</div>
+	<center><h1><b>We Aare always ready to serve you.</b></h1>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+					
+					<div>
+                        <label>E-Mail*</label><label class="validation-error hide" pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" id="fullNameValidationError">This field is required.</label><br>
+                        <input type="email" name="email" id="email">
+                    </div>
+					
+                    <div>
+                        <label>Mobile Number</label>
+                        <input type="text" name="cNo" id="cNo">
+                    </div>
+                    <div>
+                        <label>Home Address</label>
+                        <textarea name="payAmo" rows="5" cols="90" id="payAmo" ></textarea>
+						
+                    </div>
+                    <div>
+                        <label>Message</label><br>
+                        <textarea name="payRe" rows="5" cols="90" id="payRe" required></textarea>
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset"> 
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="paymentList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+							<th>E-Mail</th>
+                            <th>Mobile Number</th>
+                            <th>Home Address</th>
+                            <th>Message</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </center>
+	</div>
+	
+	
+	
+	<!--contact us-->
+	  
+	<b><button class="btn2" onclick="togglepopup()">Send Message</b></button><a href="../php/payOnline.php"><b><button class="btn3" onclick="togglepopup1()">Pay Online</button></b></a>
+
+<br><br><br>
+
+<!--slider-->
+<div class="slider">
+   <figure>
+      <div class="slide">
+	    
+		<img src="../images/cu2.jpg" alt="">
+	  </div>
+	   <div class="slide">
+	    
+		<img src="../images/cu1.png" alt="">
+	  </div>
+	  <div class="slide">
+	    
+		<img src="../images/cu3.jpg" alt="">
+	  </div>
+	  <div class="slide">
+	    
+		<img src="../images/cu4.jpg" alt="">
+	  </div>
+	  <div class="slide">
+	    
+		<img src="../images/pic1.jpg" alt="">
+	  </div>
+	  
+	</figure>
+	</div>
+
+<!--fotter-->
+<div class="footer">
+	<div class="footer-content">
+	<div class="footer-section about">
+		<h1 class="logo-text"><span>Safe Guard PLC</span></h1><br>
+		<p class="p1"><h5>Our policy is a contract with an insurance company.In exchange for premium payments,Our company provides a lump-sum payment,known as a death benefit, to beneficiaries upon the insured's death. Typically, life insurance is chosen based on the needs and goals of the owner.</h5></p>
+		<br>
+		  <div class="content">
+			<span><i class="fas fa-phone"></i><img src="../images/phone.jpg" width="20" height="20"> &nbsp; +94112224709 </span>&nbsp <br/>
+			<span><i class="fas fa-envelope"></i><img src="../images/mail.png" width="20" height="20"> &nbsp;sglife@gmail.com </span>
+		  </div>
+		<br/>
+		
+		  <div class="socials">
+		    <a href="https://www.facebook.com/"><i class="fab fa-facebook"><img src="../images/f2.png" width="40" height="40 10"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"><img src="../images/insta.png" width="40" height="40 10"></i></a>
+			<a href="https://www.twitter.com/"><i class="fab fa-twitter"><img src="../images/twi.png" width="40" height="40 10"></i></a>
+			<a href="https://www.google.com/"><i class="fab fa-g+"><img src="../images/g++.png" width="40" height="40 10"></i></a>
+			<!--<img src="../images/sm2.png" width="100" height="100">-->
+		  </div>
+	</div>
+		  
+		  <div class="footer-section links">
+			<h2>Our Branches </h2>
+			
+			<br>	
+			
+			<ul>
+				<li><color="white">Colombo</color></li>
+				<li><color="white">Kandy</color></li>
+				<li><color="white">Kurunagala</color></li>
+				<li><color="white">Matara</color></li>
+				<li><color="white">Galle</color></li>
+				<li><color="white">Anuradhapura</color></li>
+				<li><color="white">Badulla</color></li>
+		 </div>
+		 
+		<div class="footer-section contact-form">
+			<h2>Contact Us</h2>
+			
+			<br>
+			
+			<form action="home.html" method="post">
+				<input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+				<textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+				<button type="submit" class="btn1 btn1-big contact-btn1">Send </button>
+			</form>		  
+		</div>
+	</div>
+		
+		<div class="footer-bottom">
+		 &copy;Copyright © 2020 All rights reserved.
+        </div>
+	</div>
+ 
+   
+</body>
+</html>

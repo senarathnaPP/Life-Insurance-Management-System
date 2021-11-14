@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="register.css"/>
+<script src="js/myiwt.js"></script>
+</head>
+<body>
+
+
+
+<div class="overlay-form">
+  
+ <form action="home1.html" target="_blank" method="post" onsubmit="return checkPasswords()">  
+  <h1>Request a new insurance!</h1>
+  <p>Join to our company.Let's set up your new insurance!</p>
+ 
+  <div class="form-element"> 
+     <label for="fullname">Full name </label>
+	 <input type="text" id="fullname" placeholder="Enter your full name" required >
+      <br><br>
+  
+       
+  
+ 
+       
+ 
+    Accept policy and terms 
+	<input type="checkbox" id="policy" name="policy" required onclick="enableButton()" style="width:15px">
+	<br><br>
+ 
+    
+	<input type="submit" id="btn1" name="btn1" style="width:150px" value="Sign Up" disabled>
+	
+  
+ 
+    
+	<input type="reset" id="btn2" name="btn2" style="width:150px">
+	<br><br>
+	
+ </div> 
+ 
+</form>
+  
+  </div>
+   
+
+</body>
+</html>

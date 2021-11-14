@@ -1,0 +1,67 @@
+body{
+	background: url("../images/join3.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:350px;
+	margin-left:250px;
+	font-family:"Open Sans",sans-serif;
+	align-items:center;
+	justify-content:center;
+	display:center;
+	font-weight:bold;
+	
+}
+
+table{
+	border-collapse:collapse;
+	margin-top:0px;
+}
+table.list{
+	width:100%;
+}
+td,th{
+	border:1px solid #dddddd;
+	text-align:left;
+	padding:30px;
+}
+
+input[type=text],input[type=email]{
+	width:100%;
+	padding:12px 80px;
+	margin:8px 10px;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	
+}
+input[type=submit]{
+	width:30%;
+	background-color:#ddd;
+	color:#000;
+	padding:14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+form div.form-action-buttons{
+	text-align:right;
+	
+}
+a{
+	cursor:pointer;
+	text-decoration:underline;
+	color:#000cc;
+	margin-right:4px;
+}
+a:hover{
+	background:#C61D13;
+}
+.btn{
+	text-decoration:none;
+	padding:2px 5px;
+	background:#022D76;
+	color:white;
+	border-radius:3px;
+}

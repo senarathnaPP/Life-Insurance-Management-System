@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	My Insurance
+</title>
+<link rel="stylesheet" type="text/css" href="../css/product.css"/>
+<script src="../js/product.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+ 
+    
+
+			<br/><br/>
+			<div class="table1">
+ <table>
+   <tr>
+     <td>
+	  
+	  <form onsubmit="event.preventDefault();onformSubmit();"autocomplete="off" action ="../php/display2.php" method ="POST">
+	     <div>
+	      <label>ID</label>
+		  <input type="text" name="members" id="members" placeholder="must be a number" required>
+		 </div>
+		 
+		 <div>
+	      <label>Time period needed</label>
+		  <input type="text" name="time" id="time" placeholder="must be a number(5/18/21)or type as matuared" required>
+		 </div>
+		 
+		 <div>
+	      <label>Any chronic diseases? </label>
+		  <input type="text" name="dis" id="dis"  placeholder="Yes or no" required>
+		 </div>
+		 
+		 <div>
+	      <label>Insurance type needed</label>
+		  <input type="text" name="needed" id="needed" placeholder="choose from the page" required>
+		 </div>
+		 
+		 <div class="form-action-buttons">
+		 <input type="submit" value="submit">
+		  
+		 </div>
+		 
+		 
+	   </form>	 
+	 </td>
+	     <td>
+		    <table class="list1" id="userlist1">
+			   <thead>
+			      <tr>
+				    <th>ID</th>
+					 <th>&nbsp; Time period needed</th>
+					 <th>&nbsp; Any chronic diseases?</th>
+					 <th>&nbsp; Insurance type needed</th>
+					<th>&nbsp; </th>
+				  </tr>
+				</thead>
+			  <tbody>
+			  </tbody>
+			</table>
+		</td>
+	 </tr> 
+     </table>
+  </div>
+<br><br/>
+
+   
+</body>
+</html>
